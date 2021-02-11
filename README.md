@@ -37,17 +37,17 @@ F1 > 0.5. precision и recall >0.5
 Home Ownership - домовладение  
 Annual Income - годовой доход  
 Years in current job - количество лет на текущем месте работы  
-Tax Liens - налоговые обременения
-Number of Open Accounts - количество открытых счетов
-Years of Credit History - количество лет кредитной истории
-Maximum Open Credit - наибольший открытый кредит
-Number of Credit Problems - количество проблем с кредитом
-Months since last delinquent - количество месяцев с последней просрочки платежа
-Bankruptcies - банкротства
-Purpose - цель кредита
-Term - срок кредита
-Current Loan Amount - текущая сумма кредита
-Current Credit Balance - текущий кредитный баланс
-Monthly Debt - ежемесячный долг
-Credit Default - факт невыполнения кредитных обязательств (0 - погашен вовремя, 1 - просрочка)
+Tax Liens - налоговые обременения  
+Number of Open Accounts - количество открытых счетов  
+Years of Credit History - количество лет кредитной истории  
+Maximum Open Credit - наибольший открытый кредит  
+Number of Credit Problems - количество проблем с кредитом  
+Months since last delinquent - количество месяцев с последней просрочки платежа  
+Bankruptcies - банкротства  
+Purpose - цель кредита  
+Term - срок кредита  
+Current Loan Amount - текущая сумма кредита  
+Current Credit Balance - текущий кредитный баланс  
+Monthly Debt - ежемесячный долг  
+Credit Default - факт невыполнения кредитных обязательств (0 - погашен вовремя, 1 - просрочка)  
 	
