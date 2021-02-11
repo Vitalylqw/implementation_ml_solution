@@ -34,9 +34,9 @@ F1 > 0.5. precision и recall >0.5
 Обзор данных
 Описание датасета
 
-Home Ownership - домовладение
-Annual Income - годовой доход
-Years in current job - количество лет на текущем месте работы
+Home Ownership - домовладение  
+Annual Income - годовой доход  
+Years in current job - количество лет на текущем месте работы  
 Tax Liens - налоговые обременения
 Number of Open Accounts - количество открытых счетов
 Years of Credit History - количество лет кредитной истории
