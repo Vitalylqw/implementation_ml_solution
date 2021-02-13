@@ -1,5 +1,26 @@
+TRAIN = 'data/train.csv'
+
+data_columns = ['Home Ownership',
+ 'Annual Income',
+ 'Years in current job',
+ 'Tax Liens',
+ 'Number of Open Accounts',
+ 'Years of Credit History',
+ 'Maximum Open Credit',
+ 'Number of Credit Problems',
+ 'Months since last delinquent',
+ 'Bankruptcies',
+ 'Purpose',
+ 'Term',
+ 'Current Loan Amount',
+ 'Current Credit Balance',
+ 'Monthly Debt',
+ 'Credit Score']
+
 param_rf = {'n_estimators': 450, 'min_samples_split': 11, 'min_samples_leaf': 13}
+
 param_lr ={'C': 1, 'penalty': 'l2', 'solver': 'liblinear'}
+
 params_lgb = {
  "boosting_type": "gbdt",
  "objective": "binary",
@@ -49,19 +70,23 @@ params_xgb = {'booster': 'gbtree',
            'min_child_weight': 3,
            'gamma':0 }
 
+model_prediction = [('model_cb','model_lr','model_lgb'),'.mean(axis=1)']
+
+split = 0.325
+
+model_names = ['model_cb','model_lr','model_lgb','model_xgb','model_rf']
 
 target = 'Credit Default'
+
 categorical_features = ['Home Ownership', 'Tax Liens', 'Purpose', 'Term']
+
 discrete_feature = ['Years in current job', 'Number of Open Accounts',
                                  'Years of Credit History', 'Number of Credit Problems',
                                  'Months since last delinquent', 'Bankruptcies', 'Credit Score']
+
 continuous_feature = ['Annual Income', 'Maximum Open Credit', 'Current Loan Amount',
                                    'Current Credit Balance', 'Monthly Debt']
-
 count_columns = 17
-
-
-
 
 good_list = ['Annual Income_**2',
  'Years in current job_**2',
